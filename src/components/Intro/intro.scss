@@ -1,0 +1,205 @@
+@import '../../global.scss';
+
+.intro-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    border: solid 45px rgba(255, 255, 255, 0);
+    overflow: hidden;
+    z-index: 1;
+
+    @media (max-width: 500px) {
+        border-width: 40px 15px!important;
+    }
+}
+
+.background-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/img/beach.jpg);
+    background-color: rgba(187, 224, 248, 0.466);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    filter: blur(10px);
+    z-index: -1;
+    transform: scale(1.1);
+}
+
+
+
+.intro-heading {
+    border-radius: 40px;
+    display: inline-block;
+    width: Min(100%, 600px);
+    max-width: 500px;
+    margin-top: 100px;
+    margin-left: 15%;
+    z-index: 1;
+
+    .divider {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        margin-bottom: .5rem;
+    }
+
+    h1 {
+        line-height: 1.4;
+        display: inline-block;
+        font-size: 2.5rem;
+        color: $off-white;
+
+        
+        span {
+            font-size: 2em;
+            font-weight: lighter;
+            margin-right: .2em;
+        }
+    }
+}
+
+.headshot-container {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+
+.icon {
+    opacity: .2;
+    display: flex;
+    color: $dark-blue;
+    font-size: 6em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-20%);
+    z-index: -1;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        color: $arg-blue;
+    }
+
+    &.aa-icon {
+        transform: translate(-20%, -100%);
+        
+        &:hover {
+            color: #C0392B;
+        }
+
+        &::before {
+            font-size: .8rem;
+            text-align: center;
+            color: #C0392B;
+            background-color: $off-white;
+            padding: .2rem;
+            content: 'Actors Access';
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: black 2px 2px 2px;
+        }
+    }
+}
+
+.intro-headshot { 
+    &:hover {
+        .icon {
+            opacity: 1;
+            font-size: 8em;
+            transform: translateX(-20%);
+            z-index: 1;
+
+            &.aa-icon {
+                transform: translate(-20%, -100%);
+            }
+        }
+        img {
+            right: -100px;
+            transition: all .2s ease-in-out;
+        }
+    }
+    img {
+        right: 0;
+        transition: all .2s .2s ease-in-out;
+        position: relative;
+        width: 600px;
+    }
+}
+@media (min-width: 1281px) and (max-width: 1500px) {
+    .intro-heading {
+        margin-left: 10%;
+    }
+    .headshot-container {
+        right: 10%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .intro-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .intro-heading {
+        margin-left: 0;
+        margin-top: 100px;
+        padding: .6em;
+    }
+
+    .headshot-container {
+        position: relative;
+        left: unset;
+        right: unset;
+
+        .intro-headshot img{
+            width: 400px;
+        }
+        
+    }
+}
+
+@media (max-width: 800px) {
+    .intro-heading {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .intro-headshot { 
+        &:hover {
+            .icon {
+                transform: translateX(-5%);
+                font-size: 6em;
+
+                &.aa-icon {
+                    transform: translate(-5%, -100%);
+                }
+            }
+        }
+    }
+
+    .icon {
+        font-size: 6em;
+        transform: translateX(-5%);
+
+        &.aa-icon {
+            transform: translate(-5%, -100%);
+        }
+    }
+
+    .intro-heading {
+        h1 {
+            font-size: 1.6rem;
+        }
+    }
+}

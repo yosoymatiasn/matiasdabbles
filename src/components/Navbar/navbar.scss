@@ -1,0 +1,57 @@
+@import '../../global.scss';
+
+.navbar-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    padding: .4em 0;
+    z-index: 999;
+}
+
+.nav ul {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+
+    @media (max-width: 450px) {
+        gap: 1em;
+    }
+}
+
+.nav--item {
+    position: relative;
+    font-size: 1rem;
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $arg-yellow;
+        transition: all .2s ease-in-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: $arg-blue;
+        @media (max-width: 450px) {
+            font-weight: 400;
+        }
+    }
+}

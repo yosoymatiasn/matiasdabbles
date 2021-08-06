@@ -1,0 +1,81 @@
+@import '../../global.scss';
+
+.about-section {
+    background-image: url(../../assets/img/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    background-color: rgba(5, 51, 78, 0.733);//$dark-blue;
+    background-blend-mode: overlay;
+
+    .about-content {
+        position: relative;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    span {
+        display: block;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .flags {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateX(calc(-110% - 4rem));
+        max-width: 200px;
+        display: flex;
+        transition: all .4s .2s linear;
+
+        &.flags--arg {
+            left: unset;
+            right: 0;
+            transform: translateX(calc(110% + 4rem));
+        }
+    }
+
+    .why-not {
+        position: relative;
+        margin-top: 6em;
+        display: flex;
+        gap: 1em;
+        align-items: flex-start;
+
+        h3 {
+            display: block;
+            font-weight: lighter;
+            position: sticky;
+            top: 50%;
+        }
+
+        .photo-sequence {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        img {
+            box-shadow: rgb(255, 255, 255) -2px 0px 0px;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .about-section {
+        .flags-container {
+            display: flex;
+            gap: 1em;
+        }
+        .flags {
+            position: static;
+            transform: unset;
+    
+            &.flags--arg {
+                transform: unset;
+            }
+        }
+    }
+}
