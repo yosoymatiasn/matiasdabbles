@@ -8,13 +8,12 @@ export default function Intro() {
 			<div className="background-img"></div>
 			<div className="intro-heading">
 				<h1>
-					<span>Hi, </span>I'm Matias Agnese
+					<span>Matias Agnese</span>
 				</h1>
 				<div className="divider"></div>
-				<h1>
-					My friends say I'm not cool! So I figured I'd be an actor and... at
-					least pretend.
-				</h1>
+				<h1>Actor - Web Creator</h1>
+				<div className="divider"></div>
+				<h1>Thanks for stopping by!</h1>
 			</div>
 			<div className="headshot-container">
 				<div className="intro-headshot">

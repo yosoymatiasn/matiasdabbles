@@ -1,4 +1,4 @@
-@import '../../global.scss';
+@import '../../assets/styles/vars.scss';
 
 .intro-container {
     position: relative;
@@ -41,22 +41,27 @@
 
     .divider {
         display: block;
-        width: 100%;
-        height: 1px;
+        width: 50%;
+        height: 2px;
         background-color: white;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: .5rem;
+        margin-top: .5rem;
     }
 
     h1 {
         line-height: 1.4;
-        display: inline-block;
+        display: block;
+        text-align: center;
         font-size: 2.5rem;
         color: $off-white;
+        font-weight: 100;
 
         
         span {
-            font-size: 2em;
-            font-weight: lighter;
+            font-size: 4rem;
+            font-weight: 900;
             margin-right: .2em;
         }
     }
@@ -168,7 +173,13 @@
 @media (max-width: 800px) {
     .intro-heading {
         h1 {
+            display: block;
             font-size: 2rem;
+            text-align: center;
+
+            span {
+                font-size: 3rem;
+            }
         }
     }
 }
@@ -200,6 +211,10 @@
     .intro-heading {
         h1 {
             font-size: 1.6rem;
+
+            span {
+                font-size: 2.2rem;
+            }
         }
     }
 }

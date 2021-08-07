@@ -6,7 +6,8 @@ import AAC from "../../assets/img/aac-snapshot.jpg";
 export default function Acting() {
 	return (
 		<section id="work" className="work-section home-section ">
-			<h2>Websites</h2>
+			<h2>Web Design</h2>
+			<h3>Here are a few websites I've built. Including the one your on!</h3>
 			<div className="website-gallery">
 				<div className="website-container">
 					<div className="website-about">

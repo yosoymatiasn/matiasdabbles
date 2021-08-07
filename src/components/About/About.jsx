@@ -44,26 +44,38 @@ export default function About() {
 				</div>
 				<p>
 					<span>
-						Computer Science major&nbsp;&nbsp; -----> &nbsp;&nbsp;Actor.{" "}
+						Computer Science Major&nbsp;&nbsp; -----> &nbsp;&nbsp;Actor.{" "}
 					</span>
 				</p>
 				<p>
-					Not the most expected pairing of disciplines, I know. To be honest,
-					I'm probably one of the 100,000 people who saw movies like "La La
-					Land" or "The Greatest Showman" and felt inspired to pursue the
-					industry. And since I was already halfway through my CS major, I
-					figured I might as well finish. It was a long couple of years, as I
-					had fully made up my mind that a desk job with my eyes glued to a
-					monitor wasn't in my future.
+					I appreciate the interest! Well, I'm son to an Argentinean dad and an
+					United States-ean mom, hense the flags! United States-ean is
+					gibberish, I know... My dad isn't a fan of the way "American" is often
+					used, since everyone from the 'Americas' is American! In South
+					American we actually have a word for someone from the U.S:
+					estadounidense. It really rolls of the tongue too!
+				</p>
+				<p>
+					Anyways, I have an amazing family, and I am one of 4 siblings (two
+					older twin brothers and one younger sister). And we all get along
+					great! Wanna see the whole package?
+				</p>
+				<p>
+					Let's talk about me now. I have a high passion for design and artistic
+					expression. This passion has ultimately manifested my interest in{" "}
+					<a href="#work">designing websites</a> and, more importantly,{" "}
+					<a href="#media">acting</a>.
+				</p>
+				<p>
+					I also have many hobbies, including: playing music, ANY sport that
+					involves a ball, watching movies, photography, writing post it notes
+					and sticking them onto surfaces, etc. I think that covers most of
+					them!
 				</p>
 				<p>
 					This pursuit brought me to New York City in July of 2021 as the city
-					is seemingly coming back to life. I'm very excited to grow, network,
-					and chase oppurtunities in this insane city!
-				</p>
-				<p>
-					Oh! And I <a href="#work">design websites</a> too :) I guess CS wasn't
-					a complete waste...
+					is coming back to life. I'm very excited to grow in this absolutely
+					wild city. Scroll through my website to see what I have to offer!
 				</p>
 				<div className="why-not">
 					<h3>Here's me catching a football, because, why not?</h3>
