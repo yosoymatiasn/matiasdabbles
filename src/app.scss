@@ -23,6 +23,8 @@ section.home-section {
 
     @media (max-width: 500px) {
         margin: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
 
         h2 {
             font-size: 2em;
@@ -113,15 +115,23 @@ button, .button {
     justify-content: flex-end;
 }
 
+.float-right {
+    // float: right;
+}
+
+.float-left {
+    float: left;
+}
+
 // VIDEO - IMAGES
-.video-container{
+.iframe-container{    
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
   }
 
-  .video-container iframe{
+  .iframe-container iframe{
     position: absolute;
     top:0;
     left: 0;

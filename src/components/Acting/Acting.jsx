@@ -32,7 +32,9 @@ export default function Acting() {
 		<section id="media" className="acting-section home-section full-width">
 			<div className="acting-rows">
 				<div className="acting-row">
-					<h2>Headshots</h2>
+					<h2>
+						Headshots <span className="divider"></span>
+					</h2>
 					<div className="gallery">
 						<div className="headshot-card">
 							<div className="expand">
@@ -61,18 +63,22 @@ export default function Acting() {
 					</div>
 				</div>
 				<div className="acting-row">
-					<h2 className="align-right">Clips</h2>
+					<h2 className="align-right">
+						Clips <span className="divider float-right"></span>
+					</h2>
 					<div className="gallery">
 						<div className="video-container">
-							<iframe
-								width="560"
-								height="315"
-								src="https://www.youtube.com/embed/QlICqzo1jCk"
-								title="YouTube video player"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen
-							></iframe>
+							<div className="iframe-container">
+								<iframe
+									width="560"
+									height="315"
+									src="https://www.youtube.com/embed/QlICqzo1jCk"
+									title="YouTube video player"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen
+								></iframe>
+							</div>
 						</div>
 					</div>
 				</div>
