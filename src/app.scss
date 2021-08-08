@@ -59,7 +59,12 @@ a {
     transition: all .2s ease-in-out;
 }
 
-section a {
+.text-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+section a, .text-link {
     color: $arg-yellow;
 }
 

@@ -5,29 +5,6 @@ import Serious from "../../assets/img/hs-serious.jpg";
 import Happy from "../../assets/img/hs-happy.jpg";
 
 export default function Acting() {
-	useEffect(() => {
-		const lightbox = document.createElement("div");
-		lightbox.id = "lightbox";
-		document.body.appendChild(lightbox);
-		const expandBtns = document.querySelectorAll(".headshot-card>.expand");
-		expandBtns.forEach((btn) => {
-			btn.addEventListener("click", (e) => {
-				lightbox.classList.add("active");
-				const lightboxImg = document.createElement("img");
-				const image = btn.parentElement.querySelector("img");
-				lightboxImg.src = image.src;
-				while (lightbox.firstChild) {
-					lightbox.removeChild(lightbox.firstChild);
-				}
-				lightbox.appendChild(lightboxImg);
-			});
-		});
-		lightbox.addEventListener("click", (e) => {
-			if (e.target !== e.currentTarget) return;
-			lightbox.classList.remove("active");
-		});
-	});
-
 	return (
 		<section id="media" className="acting-section home-section full-width">
 			<div className="acting-rows">

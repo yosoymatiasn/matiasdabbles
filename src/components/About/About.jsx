@@ -43,8 +43,8 @@ export default function About() {
 					</div>
 				</div>
 				<p>
-					<span>
-						Computer Science Major&nbsp;&nbsp; -----> &nbsp;&nbsp;Actor.{" "}
+					<span className="subheading">
+						Computer Science Major&nbsp;&nbsp; -----> &nbsp;&nbsp;Actor.
 					</span>
 				</p>
 				<p>
@@ -58,12 +58,13 @@ export default function About() {
 				<p>
 					Anyways, I have an amazing family, and I am one of 4 siblings (two
 					older twin brothers and one younger sister). And we all get along
-					great! Wanna see the whole package?
+					great! Wanna see the{" "}
+					<span className="lightboxBtn text-link">whole package</span>?
 				</p>
 				<p>
 					Let's talk about me now. I have a high passion for design and artistic
-					expression. This passion has ultimately manifested my interest in{" "}
-					<a href="#work">designing websites</a> and, more importantly,{" "}
+					expression. This passion has ultimately manifested my interest in
+					<a href="#work">designing websites</a> and, more importantly,
 					<a href="#media">acting</a>.
 				</p>
 				<p>
