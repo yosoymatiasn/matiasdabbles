@@ -12,8 +12,8 @@ export default function Intro() {
 				</h1>
 				<div className="divider"></div>
 				<h1>Actor - Web Creator</h1>
-				{/* <div className="divider"></div>
-				<h1>Thanks for stopping by!</h1> */}
+				<div className="divider"></div>
+				<h1>Thanks for stopping by!</h1>
 			</div>
 			<div className="headshot-container">
 				<div className="intro-headshot">
