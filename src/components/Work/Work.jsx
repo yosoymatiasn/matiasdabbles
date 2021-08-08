@@ -7,15 +7,17 @@ export default function Acting() {
 	return (
 		<section id="work" className="work-section home-section ">
 			<h2>Web Design</h2>
-			<h3>Here are a few websites I've built. Including the one your on!</h3>
+			<div className="work-about">
+				<div className="tools-container">{/* <h4>Tools I use:</h4> */}</div>
+			</div>
 			<div className="website-gallery">
 				<div className="website-container">
 					<div className="website-about">
 						<h3>Williford Brothers Racing</h3>
 						<p>
-							A website for a sailing partnership's olympic campaign for Paris
-							2028.
+							This website is for my friends' olympic campaign for Paris 2028.
 						</p>
+						<div className="button no-click">Wordpress</div>
 						<div className="button">
 							<a target="_blank" href="https://www.willifordbrothersracing.com">
 								Visit Website
@@ -26,13 +28,12 @@ export default function Acting() {
 				</div>
 				<div className="website-container">
 					<div className="website-about">
-						<h3>Sara Rogers Acting Coach</h3>
+						<h3>Acting Coach</h3>
 						<p>
-							I built this website for my first acting coach and mentor. Shout
-							out to you Sara! You've been an instrumental part of my growth as
-							a man and actor. Hope to make you proud!
+							A website put together for my first acting coach and mentor, Sara
+							Rogers.
 						</p>
-
+						<div className="button no-click">Webflow</div>
 						<div className="button">
 							<a target="_blank" href="https://www.adultactingcoach.com">
 								Visit Website

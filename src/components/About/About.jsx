@@ -48,35 +48,26 @@ export default function About() {
 					</span>
 				</p>
 				<p>
-					I appreciate the interest! Well, I'm son to an Argentinean dad and an
-					United States-ean mom, hense the flags! United States-ean is
-					gibberish, I know... My dad isn't a fan of the way "American" is often
-					used, since everyone from the 'Americas' is American! In South
-					American we actually have a word for someone from the U.S:
-					estadounidense. It really rolls of the tongue too!
-				</p>
-				<p>
-					Anyways, I have an amazing family, and I am one of 4 siblings (two
-					older twin brothers and one younger sister). And we all get along
-					great! Wanna see the{" "}
+					I'm son to two amazing American parents. My dad is from Villa
+					Constitucion, Argentina and my mom is from Virgina. I am one of 4
+					siblings (two older twin brothers and one younger sister). And we all
+					get along great! Wanna see the{" "}
 					<span className="lightboxBtn text-link">whole package</span>?
 				</p>
 				<p>
-					Let's talk about me now. I have a high passion for design and artistic
-					expression. This passion has ultimately manifested my interest in
-					<a href="#work">designing websites</a> and, more importantly,
-					<a href="#media">acting</a>.
+					Enough family talk. Here's the good stuff: I have a high passion for
+					design and artistic expression. This passion has ultimately manifested
+					my interest in <a href="#work">designing websites</a> and, more
+					importantly, <a href="#media">acting</a>.
 				</p>
 				<p>
 					I also have many hobbies, including: playing music, ANY sport that
 					involves a ball, watching movies, photography, writing post it notes
-					and sticking them onto surfaces, etc. I think that covers most of
-					them!
+					and sticking them onto surfaces, etc.
 				</p>
 				<p>
-					This pursuit brought me to New York City in July of 2021 as the city
-					is coming back to life. I'm very excited to grow in this absolutely
-					wild city. Scroll through my website to see what I have to offer!
+					The persuit of acting brought me to New York City in July of 2021. I'm
+					very excited to grow in this absolutely wild city.
 				</p>
 				<div className="why-not">
 					<h3>Here's me catching a football, because, why not?</h3>

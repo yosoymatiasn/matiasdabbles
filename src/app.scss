@@ -69,24 +69,28 @@ section a, .text-link {
 }
 
 button, .button {
-    background-color: $off-white;
-    cursor: pointer;
-    padding: .4em 1em;
+    // background-color: $off-white;
+    border: solid 1px $off-white;
     border-radius: 20px;
-    border: none;
-    color: $arg-blue;
-    font-size: 1.2rem;
-    margin-top: 1em;
+    cursor: pointer;
+    padding: .3em .6em;
+    color: $off-white;
+    font-size: 1rem;
+    margin: 1em .8em 0px 0px;
     transition: all .2s ease-in-out;
     display: inline-block;
+    opacity: .6;
 
     a {
         all: unset;
     }
 
     &:hover {
-        background-color: $arg-yellow;
-        color: $arg-blue;
+        opacity: 1;
+    }
+
+    &.no-click {
+        cursor: default;
     }
 }
 
