@@ -49,6 +49,19 @@ export default function Acting() {
 								<iframe
 									width="560"
 									height="315"
+									src="https://www.youtube.com/embed/bQlhUkkKhpA"
+									title="YouTube video player"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen
+								></iframe>
+							</div>
+						</div>
+						<div className="video-container">
+							<div className="iframe-container">
+								<iframe
+									width="560"
+									height="315"
 									src="https://www.youtube.com/embed/QlICqzo1jCk"
 									title="YouTube video player"
 									frameborder="0"
