@@ -49,9 +49,9 @@ export default function About() {
 				</p>
 				<p>
 					I'm son to two amazing American parents. My dad is from Villa
-					Constitucion, Argentina and my mom is from Virgina. I am one of 4
-					siblings (two older twin brothers and one younger sister). And we all
-					get along great! Wanna see the{" "}
+					Constitución, Sante Fe, Argentina and my mom is from Virginia Beach,
+					Virginia. I am one of 4 siblings (two older twin brothers and one
+					younger sister). And we all get along great! Wanna see the{" "}
 					<span className="lightboxBtn text-link">whole package</span>?
 				</p>
 				<p>
