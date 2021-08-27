@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import "./work.scss";
 import WBR from "../../assets/img/wbr-snapshot.jpg";
 import AAC from "../../assets/img/aac-snapshot.jpg";
+import NL from "../../assets/img/nulanes-snapshot.jpg";
 
 export default function Acting() {
 	return (
@@ -41,6 +42,22 @@ export default function Acting() {
 						</div>
 					</div>
 					<img src={AAC} alt="" />
+				</div>
+				<div className="website-container">
+					<div className="website-about">
+						<h3>NuLanes</h3>
+						<p>
+							Landing page for one of my pal Dan New's passion projects. Let's
+							make bike lanes cool again!
+						</p>
+						<div className="button no-click">Webflow</div>
+						<div className="button">
+							<a target="_blank" href="https://www.nulanes.com">
+								Visit Website
+							</a>
+						</div>
+					</div>
+					<img src={NL} alt="" />
 				</div>
 			</div>
 		</section>

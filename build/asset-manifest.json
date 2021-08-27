@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b45ac631.chunk.css",
-    "main.js": "/static/js/main.9e8ad12d.chunk.js",
-    "main.js.map": "/static/js/main.9e8ad12d.chunk.js.map",
+    "main.js": "/static/js/main.24e102de.chunk.js",
+    "main.js.map": "/static/js/main.24e102de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dd320ab.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dd320ab.js.map",
     "static/js/2.c3fc17bf.chunk.js": "/static/js/2.c3fc17bf.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/instagram.eb1c95d2.png": "/static/media/instagram.eb1c95d2.png",
     "static/media/jumping.6ab1694b.jpg": "/static/media/jumping.6ab1694b.jpg",
     "static/media/landing.eaeb2d33.jpg": "/static/media/landing.eaeb2d33.jpg",
+    "static/media/nulanes-snapshot.507ff804.jpg": "/static/media/nulanes-snapshot.507ff804.jpg",
     "static/media/running.b2a59d79.jpg": "/static/media/running.b2a59d79.jpg",
     "static/media/usa.d2fbe3b7.png": "/static/media/usa.d2fbe3b7.png",
     "static/media/wbr-snapshot.d4f147ff.jpg": "/static/media/wbr-snapshot.d4f147ff.jpg"
@@ -31,6 +32,6 @@
     "static/js/runtime-main.8dd320ab.js",
     "static/js/2.c3fc17bf.chunk.js",
     "static/css/main.b45ac631.chunk.css",
-    "static/js/main.9e8ad12d.chunk.js"
+    "static/js/main.24e102de.chunk.js"
   ]
 }
